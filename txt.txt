@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/1.jpg" alt="">
+        <h1>Dog Home</h1>
+        <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Gallery</li>
+        <li>Dropdown</li>
+        <li>Contact Us</li>
+    </ul>
+    </header>
+<section>
+    <h1>Welcom to Our Website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aspernatur harum. Illo dolores alias fuga. Repellendus nihil autem tenetur porro dolorum, reprehenderit, tempore sint reiciendis beatae repudiandae aut iste voluptates.</p>
+    <img  id="welcom" src="img/about2.jpg" alt="hinh 2">
+</section>
+<section id="what-we-do">
+    <h2>What we do </h2>
+    <div class="container">
+    <div class="item"><img src="img/wh3.jpg" alt="">
+        <h1>House &Crate</h1>
+        <p id="p"> Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p>
+    </div>
+    <div class="item"><img src="img/wh3.jpg" alt="">
+        <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item"><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item" ><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item"><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item"><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item"><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+    <div class="item"><img src="img/wh3.jpg" alt=""> <h1>House &Crate</h1>
+        <p>Sit amet mattis quam,sit amet excepteur sint occaecat cupidate</p></div>
+</div>
+</section>
+<div id="our">
+    <h1>Our Statistics</h1>
+    <div class="con">
+  <div class="ourstaictic"> <h1>8</h1>
+                <p>Year of Experience</p>
+</div>
+    <div class="ourstaictic"><h1>600</h1> <p>Contest attended</p></div>
+    <div class="ourstaictic"><h1>300</h1><p>Happy Customer</p></div>
+    <div class="ourstaictic"><h1>30</h1>   <p>Camps</p></div>
+    </div>
+</div>
+<div id="trongcuoicung">
+   <div id="petservices">
+       <h1>Pet Services</h1>
+       <p>Excepteur sint occaecat cupidata non proident, sunt in culpa qui officea dererik anima id.</p>
+    <br>
+    <p>Sed up perspiciatis under omnis iste natus eror sit voluptatem acccuusantium dolor rem q laudantimun. totam rem aperila eaqui ipsa quae ab illioi nvento veirtais et quiasi architeicit beat vie wda  </p>
+</div>
+    <div id="right">
+        <div> <h1>Groming</h1>
+            <p> integer set amet matis quan,sit amet uti sar vlit</p>
+        </div>
+        <div><h1>Groming</h1>
+            <p> integer set amet matis quan,sit amet uti sar vlit</p></div>
+        <div><h1>Groming</h1>
+            <p> integer set amet matis quan,sit amet uti sar vlit</p></div>
+        <div><h1>Groming</h1>
+            <p> integer set amet matis quan,sit amet uti sar vlit</p></div>
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+header{
+    position: relative;
+}
+header >img  {
+    margin:0;
+    width: 100%;
+
+}
+header >h1{
+    position:absolute;
+    left:10px;
+    top:-10px;
+    margin:20px;
+    font-size: 50px;
+    color:white;
+}
+header> ul >li {
+    color:rgb(235, 235, 235);
+    list-style: none;
+    margin-left:15px;
+}
+header >ul{
+    display:flex;
+    position: absolute;
+    top:10px;
+    right:60px;
+}
+
+
+section>p{
+   margin:10px auto;
+   text-align: center;
+    width:40%;
+    color:rgba(159, 161, 163, 0.534);
+}
+section>h1{
+    text-align: center;
+    font-size:40px;
+}
+#welcom{
+  padding:10px 230px;
+  width:100%;
+}
+#what-we-do .item{
+    
+    width:25%;
+    height :300px;
+   
+}
+.item ,img, h1 ,p{
+text-align: center;
+margin:10px 0;
+}
+.item >img{
+    border-radius: 50%;
+}
+.item>p{
+    text-align: center;
+    color: rgba(124, 124, 123, 0.541);
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+ #what-we-do>h2{
+text-align: center;
+font-weight: 200;
+font-size: 100px;
+ }
+
+#our{
+    background-image:url(img/bg.jpg);
+    width:100%;
+    background-size: cover;
+}
+#our >h1{
+    color:white;
+    font-size:39px;
+}
+.ourstaictic{
+    color:white;
+    width:25%;
+
+}
+.con{
+    display:flex;
+    padding-bottom: 50px;
+}
+#petservices{
+    width:40%;
+    
+}
+#right{
+    width:60%;
+    display:flex;
+    float:right;
+    flex-wrap: wrap;
+    margin-left:10px;
+}
+#right>div {
+    width:50%;
+    height:250px;
+    text-align: center;
+}
+#trongcuoicung{
+    display:flex;
+}
+#right div{
+    box-shadow: 2px 3px 4px rgba(184, 179, 179, 0.726) ;
+}

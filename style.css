@@ -1,0 +1,170 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:  'Nunito Sans', sans-serif;;
+    line-height:1.5;
+}
+header{
+   
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+#logo{
+    color:white;
+    margin-left:70px;
+    margin-top:50px;
+    font-size: 50px;
+}
+nav{
+    display:flex;
+    color:white;
+    margin-right:18px;
+    margin-top:57px;
+    margin-bottom: 10px;
+}
+nav div{
+    font-size: 25px;
+    margin-right:50px;
+}
+.home{
+   text-align: center;
+    padding:10px 10px;
+    color:black;
+    background-color: white;
+    border-radius: 10%;
+}
+#header1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+#main-header{
+    display: block;
+    color:white;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+#main-header h1{
+    display:block;
+    text-align: center;
+    font-size: 70px;
+}
+#main-header h2{
+    font-size: 20px;
+    display:inline-block;
+    padding:5px 5px;
+    border-width:2px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:white;
+}
+.ul{
+    list-style-type: disc;
+    color:rgba(255, 251, 251, 0.507);
+    display:flex;
+   margin-left: 44%;
+   margin-top: 200px;
+}
+ul li{
+    font-size: 60px;
+    margin-left: 40px;
+}
+/* fadfas */
+section>p{
+    margin:10px auto;
+    text-align: center;
+     width:40%;
+     color:rgba(159, 161, 163, 0.534);
+ }
+ section>h1{
+     text-align: center;
+     font-size:40px;
+ }
+ #welcom{
+   padding:10px 230px;
+   width:100%;
+ }
+ #what-we-do .item{
+     
+     width:25%;
+     height :300px;
+    
+ }
+ .item ,img, h1 ,p{
+ text-align: center;
+ margin:10px 0;
+ }
+ .item >img{
+     border-radius: 50%;
+ }
+ .item>p{
+     text-align: center;
+     color: rgba(124, 124, 123, 0.541);
+ }
+ .container{
+     display:flex;
+     flex-wrap: wrap;
+ }
+  #what-we-do>h2{
+ text-align: center;
+ font-weight: 200;
+ font-size: 100px;
+  }
+ 
+ #our{
+     background-image:url(img/bg.jpg);
+     width:100%;
+     background-size: cover;
+ }
+ #our >h1{
+     color:white;
+     font-size:39px;
+ }
+ .ourstaictic{
+     color:white;
+     width:25%;
+ 
+ }
+ .con{
+     display:flex;
+     padding-bottom: 50px;
+ }
+ #trangcuoi{
+    display:flex;
+   
+ }
+ #petservices{
+     width:30%;
+ }
+ #petservices h1{
+     column-rule-color: black;
+     text-align: center;
+ }
+ #petservices pre{
+     color:rgba(167, 163, 163, 0.89);   
+     margin-left: 170px;
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ #grooming{
+width:70%;
+
+ }
+ .per{
+     display:flex;
+     flex-wrap: wrap;
+
+ }
+ .per div{
+   width:48%;
+     margin:10px 10px;
+     height:250px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 4px 3px rgb(187, 187, 187);
+}
