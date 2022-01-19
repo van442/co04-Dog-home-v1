@@ -64,17 +64,8 @@ nav div{
     border-radius: 10px;
     border-color:white;
 }
-.ul{
-    list-style-type: disc;
-    color:rgba(255, 251, 251, 0.507);
-    display:flex;
-   margin-left: 44%;
-   margin-top: 200px;
-}
-ul li{
-    font-size: 60px;
-    margin-left: 40px;
-}
+
+
 /* fadfas */
 section>p{
     margin:10px auto;
@@ -119,14 +110,19 @@ section>p{
  
  #our{
      background-image:url(img/bg.jpg);
-     width:100%;
-     background-size: cover;
+     background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+  
+    
  }
  #our >h1{
+    padding:100px;
      color:white;
      font-size:39px;
  }
  .ourstaictic{
+     padding-top:40px;
      color:white;
      width:25%;
  
@@ -135,36 +131,275 @@ section>p{
      display:flex;
      padding-bottom: 50px;
  }
- #trangcuoi{
+ 
+ 
+#testimonials{
+    background-image: url(img/bg.jpg);
+    background-size:cover;
+
+    background-repeat: no-repeat;
+    
+   height:450px;
+}
+#testimonials h1{
+
+    color:white;
+}
+#thanhvien{
+    position: relative;
+    color:white;
+    width:70%;
+    display:flex;
+    margin:0 auto;
+   
+}
+#thanhvien >div{
+    width:33.3%;
+    margin-left:10px;
+}
+#thanhvien>div>p{
+    padding-bottom:30px;
+    width:70%;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+#thanhvien>div>img{
+    display:block;
+    border-radius: 50%;
+    margin:0 auto;
+    padding-bottom:15px;
+}
+#thanhvien>div>h3{
+   text-align: right;
+    color:rgb(204, 126, 0);
+}
+#testimonials >h1{
+    padding-top:30px;
+    padding-bottom:50px;
+}
+#ourblog{
+    width:80%;
+    margin:0 auto;  
+}
+#infor{
+    display: flex; 
+}
+#ourblog >h1{
+    font-size: 40px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#infor >div{
+    margin:0 auto;
+    width:31%;
+    height:450px;
+    border:1px solid rgb(214, 214, 214);
+}
+#infor >div>img{
+    margin-top: -1px;
+    width:100%;
+    height:60%;
+    border-radius: 1%;
+}
+#infor >div>h3,h5{
+    margin-left:10px;
+}
+#infor >div>h5{
+    width:220px;
+    margin-bottom:20px;
+}
+#aadfda>h5{
+    color:rgb(246, 172, 0);
+}
+#aadfda{
+    display:block;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#aadfda>p{
+    margin-left: -100px;
+
+}
+#ourblog{
+    margin-bottom: 10px;
+}
+
+#contacus{
+   width: 65%;
+   margin:0 auto;
+}
+#contactinfo{
+    width:50%;
+}
+#form{
+    width:50%;
+    height:400px;
+    background-color: rgb(214, 216, 218);
+}
+#bas{
+    display:flex;
+}
+form{
+    
+    display:block;
+    margin:15px 15px;
+    
+}
+#form{
+    display:block;
+    margin-left: 40px;
+}
+input{
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px rgb(128, 5, 5);
+    margin-bottom: 10px;
+    width:580px;
+    height:40px;
+}
+#submit{
+    width:580px;
+    height:40px;
+    background-color:rgb(241, 146, 36);
+}
+#contacus >h1{
+    font-weight:60px;
+    font-size:50px;
+    padding-top:30px;
+    padding-bottom:25px;
+}
+#contactinfo >h3{
+    color:rgb(243, 91, 3);
+}
+#petservices{
+width:80%;
+display:flex;
+margin:0 auto;
+}
+#petservices >#phandau{
+    width:30%;
+    margin:0 auto;
+
+
+}
+#petservices >#phandau>p{
+
+   text-align:left;
+    color:rgb(158, 161, 161);
+    padding-left: 89px;
+    width:60%;
+
+}
+#petservices >#phandau>h2{
+    left:5px;
+text-align: center;
+font-size: 40px;
+margin:10px 95px;
+
+padding-bottom: 0;
+padding-top: 0;
+background-color: rgb(248, 247, 247);
+}
+
+#petservices>#grooming{
+    width:70%;
+   
+}
+#grooming{
+    display:flex;
+    flex-wrap:wrap;
+}
+#grooming >div{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    width:44%;
+    flex-wrap:wrap;
+    height:350px;
+  box-shadow: 4px 5px 5px rgb(75, 74, 74);
+    margin:10px 10px;
+}
+#grooming >div>h1{
+    padding-top:60px;
+
+}
+#visitus{
+    display:flex;
+}
+
+#visitus>div>h4, h5{
+    margin-top:3px;
+    margin-left:20px;
+
+}
+#visitus>div>h5{
+    color:rgb(135, 136, 136);
+}
+
+#grooming >div>.fab{
+    position:absolute ;
+    padding-top:20px;
+    left:50%;
+    font-size:50px;
+    transform: translateX(-50%);
+    color:rgb(240, 176, 0);
+}
+#grooming >div>.far,.fas{
+    position:absolute ;
+    padding-top:20px;
+    left:50%;
+    font-size:50px;
+    transform: translateX(-50%);
+    color:rgb(240, 176, 0);
+}
+#visitus>div>i{
+    color:rgb(0, 0, 0);
+    font-size: 45px;
+}
+#grid-container{
+    display:grid;
+    width:100%;
+    grid-template-columns:10% 20% 20% 20% 20% 10%;
+background-color: rgb(24, 21, 21);
+height:400px;
+
+}
+.grid-item{
+    color:white;
+}
+.grid-item>h4{
+width:60%;
+color:rgb(108, 112, 116);
+font-weight: 100;
+}
+.grid-item>h2{
+    width:60%;
+   
+    font-weight: 100;
+}
+.grid-item>h3{
+    width:60%;
+   
+    font-weight: 100;
+}
+#afa{
     display:flex;
    
- }
- #petservices{
-     width:30%;
- }
- #petservices h1{
-     column-rule-color: black;
-     text-align: center;
- }
- #petservices pre{
-     color:rgba(167, 163, 163, 0.89);   
-     margin-left: 170px;
-     font-size: 15px;
-     font-family: 'Times New Roman', Times, serif;
- }
- #grooming{
-width:70%;
-
- }
- .per{
-     display:flex;
-     flex-wrap: wrap;
-
- }
- .per div{
-   width:48%;
-     margin:10px 10px;
-     height:250px;
-    /* border: 1px solid black; */
-    box-shadow: 2px 4px 3px rgb(187, 187, 187);
+}
+#afa>#submit{
+    background-color:rgb(255, 145, 0) ;
+    color:white;
+}
+#h2{
+    width:70%;
+    font-size: 20px;
+}
+#erqr>div{
+    display:flex;
+    
+}
+#erqr >.fab fa-facebook-square{
+    background:rgb(15, 80, 141);
+    color:rgb(255, 249, 249);
+  overflow:hidden;
 }
